@@ -14,6 +14,7 @@ public class RcyModelAdater {
         private TextView textView ;
         public ViewHolder(View itemView) {
             super(itemView);
+            textView = (TextView) itemView.findViewById(R.id.tvModelName);
 
         }
     }
